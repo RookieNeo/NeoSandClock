@@ -41,11 +41,11 @@ public class SandClockView: UIView {
         self.layer.addSublayer(bottomLayer)
         self.layer.addSublayer(sandLayer)
         self.layer.addSublayer(topLayer)
-//        let bundle = Bundle.init(for: SandClockView.self)
-//        let image = UIImage(named: "sandclock_bg", in: bundle, compatibleWith: nil)//UIImage.init(contentsOfFile: imageBunlde!.path(forResource: "sandclock_bg", ofType: "png")!)
-//        let imageView = UIImageView(image: image!)
-//        imageView.frame = self.bounds
-//        self.addSubview(imageView)
+        let bundle = Bundle.init(for: SandClockView.self)
+        let image = UIImage(named: "sandclock_bg", in: bundle, compatibleWith: nil)//UIImage.init(contentsOfFile: imageBunlde!.path(forResource: "sandclock_bg", ofType: "png")!)
+        let imageView = UIImageView(image: image!)
+        imageView.frame = self.bounds
+        self.addSubview(imageView)
     }
     func startAnimation(){
         topLayer.startAnimation()

@@ -22,6 +22,7 @@
 		B56FA206214A622700B8D625 /* SandBoxBottomLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA1FF214A622700B8D625 /* SandBoxBottomLayer.swift */; };
 		B56FA207214A622700B8D625 /* SandClockControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56FA200214A622700B8D625 /* SandClockControlView.xib */; };
 		B56FA208214A622700B8D625 /* SandBoxTopLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA201214A622700B8D625 /* SandBoxTopLayer.swift */; };
+		B56FA20E214A683600B8D625 /* NeoSandClockBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B56FA20D214A683600B8D625 /* NeoSandClockBundle.bundle */; };
 		F1F144B2690E5E59B71A1CDF264E6C43 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EF4B0A434A384FF957EC330DC1FEE /* ReplaceMe.swift */; };
 		FBAF32426880E4BADBA84F4AFBA413FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -79,6 +80,7 @@
 		B56FA1FF214A622700B8D625 /* SandBoxBottomLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SandBoxBottomLayer.swift; path = NeoSandClock/Classes/SandBoxBottomLayer.swift; sourceTree = "<group>"; };
 		B56FA200214A622700B8D625 /* SandClockControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SandClockControlView.xib; path = NeoSandClock/Classes/SandClockControlView.xib; sourceTree = "<group>"; };
 		B56FA201214A622700B8D625 /* SandBoxTopLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SandBoxTopLayer.swift; path = NeoSandClock/Classes/SandBoxTopLayer.swift; sourceTree = "<group>"; };
+		B56FA20D214A683600B8D625 /* NeoSandClockBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NeoSandClockBundle.bundle; path = NeoSandClock/Classes/NeoSandClockBundle.bundle; sourceTree = "<group>"; };
 		C08F272687F310729867EBC57577B667 /* NeoSandClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NeoSandClock-umbrella.h"; sourceTree = "<group>"; };
 		C2C34D5BC96AE87F4F8D807C1DEFB2E6 /* NeoSandClock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NeoSandClock.xcconfig; sourceTree = "<group>"; };
 		C7D6A3A7BCD84369B55C21A8C1FF1B1C /* Pods-NeoSandClock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoSandClock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		806303CDEF2555990BE039717D028B74 /* NeoSandClock */ = {
 			isa = PBXGroup;
 			children = (
+				B56FA20D214A683600B8D625 /* NeoSandClockBundle.bundle */,
 				AE5EF4B0A434A384FF957EC330DC1FEE /* ReplaceMe.swift */,
 				B56FA1FF214A622700B8D625 /* SandBoxBottomLayer.swift */,
 				B56FA201214A622700B8D625 /* SandBoxTopLayer.swift */,
@@ -375,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56FA207214A622700B8D625 /* SandClockControlView.xib in Resources */,
+				B56FA20E214A683600B8D625 /* NeoSandClockBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
