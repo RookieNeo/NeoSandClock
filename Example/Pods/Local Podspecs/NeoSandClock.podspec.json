@@ -2,6 +2,7 @@
   "name": "NeoSandClock",
   "version": "0.1.0",
   "summary": "A simple SandClock Control",
+  "swift_version": "4.0",
   "description": "'A Swift SanClock Control You can use it in lodingview'",
   "homepage": "https://github.com/RookieNeo/NeoSandClock",
   "license": {

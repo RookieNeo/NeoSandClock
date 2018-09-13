@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NeoSandClock: e518e12ce75f989b698d0721cdcc3b1e3bf6645f
+  NeoSandClock: ceaebf6ed8a86b6815d2061e419bebdef07b7f5d
 
 PODFILE CHECKSUM: 796c9885b7655538d385a07bc5178f1153ea9bad
 

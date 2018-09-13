@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05643FDCD0E0DEC827733D4DBF4B76C2 /* NeoSandClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F4D4DA66D9773E3BE73F8275D66CD1 /* NeoSandClock-dummy.m */; };
 		09A90D6176C14CC853A5DBF84B9DF1A1 /* Pods-NeoSandClock_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5791E9B84D685A009062961263915909 /* Pods-NeoSandClock_Example-dummy.m */; };
 		1891702E8137161D6EDFF1030863C78B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2658A3BF4C9C16C450C1C18011A18345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3C229D8D9572EA780D1D3C73FFBFA828 /* NeoSandClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C08F272687F310729867EBC57577B667 /* NeoSandClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E36C0B4C9A30DBA4AC7EEAC7AF6CB7 /* SandBoxBottomLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F11A9F6FB5549810424BE9BEA15CDD /* SandBoxBottomLayer.swift */; };
+		462DDFD6F4A60A80D9B0775C2983E128 /* Root.strings in Sources */ = {isa = PBXBuildFile; fileRef = C3016B5640569DB769E7DF4324A08CC2 /* Root.strings */; };
+		52E708828EEEB1B96995ED2C7BDFE51F /* sandclock_bg@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D30F4541A1B9C534BEACEB5073492D6E /* sandclock_bg@2x.png */; };
+		57524CB095EFA19E2DE4347F3E0B7DC4 /* SandClockControlView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8D0AB3862F43C7F29D4FAE7BB30E1 /* SandClockControlView.xib */; };
 		66A1ED27C7680290D2C9DED40BF1C102 /* Pods-NeoSandClock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99545E45FD9E153F738A1FE51DDFC2 /* Pods-NeoSandClock_Tests-dummy.m */; };
+		6DEF8A273B0C2155B5DD02FAA9171E3C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E78BD49AC34E3407ADF1A06B2971FE /* ReplaceMe.swift */; };
+		757FCFFA5CE568C9ACB0A6036B0BEC45 /* NeoSandClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B7A2C066D13D111678269E6FC7B8E0 /* NeoSandClock-dummy.m */; };
+		7B1CE8051C919650197D5427BC866030 /* Root.plist in Sources */ = {isa = PBXBuildFile; fileRef = 762C04D5FCE5C47C9BBF7B6565D510F2 /* Root.plist */; };
+		7F185FF671B4D2641C80D0C9754F1BE9 /* SandClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDF6AFA27EF81D1A937D37B174289B /* SandClock.swift */; };
+		7FB49E699672C16E28B07A46AC706BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8B0FA081BB346A5D8F3FD19D09001AB7 /* NeoSandClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBB7C83D79FBDA2CCB85DA88CE25C3F /* NeoSandClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EFB43D64EED9D2870CACA90775A497B /* Pods-NeoSandClock_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4BE1D5D5875D8A2368C4F94A385A1FC /* Pods-NeoSandClock_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		931026A5DF2717C02C8A58F64CDFF682 /* Pods-NeoSandClock_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2077264EB370751B595BF3F8F3F14A /* Pods-NeoSandClock_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B56FA202214A622700B8D625 /* SandClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA1FB214A622700B8D625 /* SandClockView.swift */; };
-		B56FA203214A622700B8D625 /* SandClockControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA1FC214A622700B8D625 /* SandClockControlView.swift */; };
-		B56FA204214A622700B8D625 /* SandLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA1FD214A622700B8D625 /* SandLayer.swift */; };
-		B56FA205214A622700B8D625 /* SandClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA1FE214A622700B8D625 /* SandClock.swift */; };
-		B56FA206214A622700B8D625 /* SandBoxBottomLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA1FF214A622700B8D625 /* SandBoxBottomLayer.swift */; };
-		B56FA207214A622700B8D625 /* SandClockControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56FA200214A622700B8D625 /* SandClockControlView.xib */; };
-		B56FA208214A622700B8D625 /* SandBoxTopLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FA201214A622700B8D625 /* SandBoxTopLayer.swift */; };
-		B56FA20E214A683600B8D625 /* NeoSandClockBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B56FA20D214A683600B8D625 /* NeoSandClockBundle.bundle */; };
-		F1F144B2690E5E59B71A1CDF264E6C43 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EF4B0A434A384FF957EC330DC1FEE /* ReplaceMe.swift */; };
-		FBAF32426880E4BADBA84F4AFBA413FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DF0C37F74F4A9EEC7593976AB0ECBCB8 /* sandclock_bg@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 88052437BB7F0764AA8A4BEA657AECE0 /* sandclock_bg@3x.png */; };
+		E272E930E546B7FBA23AD94B22904D1C /* SandClockControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C1CEA1225E6270CCCB7B3E678150A /* SandClockControlView.swift */; };
+		EA54BC858BB3309DDE3A6CE38705DEE2 /* SandBoxTopLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A602CF7F2B7A6B86625DB2653A192 /* SandBoxTopLayer.swift */; };
+		F1CB0F044230261329178A445609C130 /* SandClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC405E32C0BC6F4E7BE7EA4EC7E6F32 /* SandClockView.swift */; };
+		F7712F81615F72731A11F9E77BDA6DDE /* SandLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D5E4B2A1183125B5538CB70281578E /* SandLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +35,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9188B545A499F81550A66B1959FBCD66;
+			remoteGlobalIDString = B79582155F1F36A9E97AC29ADD898962;
 			remoteInfo = NeoSandClock;
 		};
 		F3DBDA8D66E41BCD71F48722979BDB10 /* PBXContainerItemProxy */ = {
@@ -45,65 +48,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0377FD52437DE34D895DD808C1A4DC08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09002913782E323BE4933748FD625F9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		040A602CF7F2B7A6B86625DB2653A192 /* SandBoxTopLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SandBoxTopLayer.swift; path = NeoSandClock/Classes/SandBoxTopLayer.swift; sourceTree = "<group>"; };
 		0B2077264EB370751B595BF3F8F3F14A /* Pods-NeoSandClock_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeoSandClock_Example-umbrella.h"; sourceTree = "<group>"; };
+		145C1CEA1225E6270CCCB7B3E678150A /* SandClockControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SandClockControlView.swift; path = NeoSandClock/Classes/SandClockControlView.swift; sourceTree = "<group>"; };
 		1EDA17288294DCCDF810A05AEC4AE4E1 /* Pods-NeoSandClock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoSandClock_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1F99545E45FD9E153F738A1FE51DDFC2 /* Pods-NeoSandClock_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeoSandClock_Tests-dummy.m"; sourceTree = "<group>"; };
 		209CFB672AF74DCEB36D534039D4202C /* Pods-NeoSandClock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoSandClock_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		21F4D4DA66D9773E3BE73F8275D66CD1 /* NeoSandClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NeoSandClock-dummy.m"; sourceTree = "<group>"; };
 		2F8C5580ED4A0D8E3C7E1A3306A79222 /* Pods-NeoSandClock_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeoSandClock_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		308102C836E17508BA140C5711853FA9 /* NeoSandClock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NeoSandClock.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30273143D46AF685C8A97F3ED886D2AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		32A710DDD500F32F7A88D8CF630075BE /* Pods-NeoSandClock_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeoSandClock_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4F991AC2A7E61338FFAC94FBC0D1134D /* Pods_NeoSandClock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoSandClock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F991AC2A7E61338FFAC94FBC0D1134D /* Pods_NeoSandClock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NeoSandClock_Example.framework; path = "Pods-NeoSandClock_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFDF6AFA27EF81D1A937D37B174289B /* SandClock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SandClock.swift; path = NeoSandClock/Classes/SandClock.swift; sourceTree = "<group>"; };
+		521A486AE2BD51DB47BFC6BDD6AD5578 /* NeoSandClock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NeoSandClock-prefix.pch"; sourceTree = "<group>"; };
 		52246D9980396AF51A62A43735707037 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578FF96C7617C64C7762BAA2BA9EA6E5 /* NeoSandClock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NeoSandClock.modulemap; sourceTree = "<group>"; };
 		5791E9B84D685A009062961263915909 /* Pods-NeoSandClock_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeoSandClock_Example-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EFA01B298CFF2E63D32D125BBCBEEA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		627DE76DB38C29E7340CE51F6CC40DBE /* Pods-NeoSandClock_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeoSandClock_Tests-resources.sh"; sourceTree = "<group>"; };
 		62F3A37CF92F4762C9ECE39DC497D071 /* Pods-NeoSandClock_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeoSandClock_Example-resources.sh"; sourceTree = "<group>"; };
-		672889B5BBDB02EFF41506AA1FF793A6 /* NeoSandClock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NeoSandClock.modulemap; sourceTree = "<group>"; };
+		6BBB7C83D79FBDA2CCB85DA88CE25C3F /* NeoSandClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NeoSandClock-umbrella.h"; sourceTree = "<group>"; };
+		6C9E4805CC58E326BCBDAEB81308F90A /* NeoSandClock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NeoSandClock.xcconfig; sourceTree = "<group>"; };
 		6F6CC369013B476470AB7A3370A4307F /* Pods-NeoSandClock_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NeoSandClock_Example.modulemap"; sourceTree = "<group>"; };
 		721EC0202138D20BE35426B69DF33D66 /* Pods-NeoSandClock_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeoSandClock_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		729271C3C041E7F8B3DCDFFDA4B4108A /* Pods_NeoSandClock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoSandClock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729271C3C041E7F8B3DCDFFDA4B4108A /* Pods_NeoSandClock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NeoSandClock_Tests.framework; path = "Pods-NeoSandClock_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		762C04D5FCE5C47C9BBF7B6565D510F2 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Root.plist; sourceTree = "<group>"; };
 		78067B6A803A90EFAD3942F2DDC85718 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CD4DBCEF2D05677F6FE918701E3DEE6 /* Pods-NeoSandClock_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NeoSandClock_Tests.modulemap"; sourceTree = "<group>"; };
-		8477D004305894900FD7206AEA484B03 /* NeoSandClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NeoSandClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92485F84CD936CA585AB3FE9008F63B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE5EF4B0A434A384FF957EC330DC1FEE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NeoSandClock/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		7FA8D0AB3862F43C7F29D4FAE7BB30E1 /* SandClockControlView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SandClockControlView.xib; path = NeoSandClock/Classes/SandClockControlView.xib; sourceTree = "<group>"; };
+		8477D004305894900FD7206AEA484B03 /* NeoSandClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NeoSandClock.framework; path = NeoSandClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88052437BB7F0764AA8A4BEA657AECE0 /* sandclock_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sandclock_bg@3x.png"; sourceTree = "<group>"; };
+		88E78BD49AC34E3407ADF1A06B2971FE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NeoSandClock/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BF09E73B82625C07AAF346F83721DAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B1A965008FA9EDC7A5D9867C02549E90 /* Pods-NeoSandClock_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeoSandClock_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4BE1D5D5875D8A2368C4F94A385A1FC /* Pods-NeoSandClock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeoSandClock_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B56FA1FB214A622700B8D625 /* SandClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SandClockView.swift; path = NeoSandClock/Classes/SandClockView.swift; sourceTree = "<group>"; };
-		B56FA1FC214A622700B8D625 /* SandClockControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SandClockControlView.swift; path = NeoSandClock/Classes/SandClockControlView.swift; sourceTree = "<group>"; };
-		B56FA1FD214A622700B8D625 /* SandLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SandLayer.swift; path = NeoSandClock/Classes/SandLayer.swift; sourceTree = "<group>"; };
-		B56FA1FE214A622700B8D625 /* SandClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SandClock.swift; path = NeoSandClock/Classes/SandClock.swift; sourceTree = "<group>"; };
-		B56FA1FF214A622700B8D625 /* SandBoxBottomLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SandBoxBottomLayer.swift; path = NeoSandClock/Classes/SandBoxBottomLayer.swift; sourceTree = "<group>"; };
-		B56FA200214A622700B8D625 /* SandClockControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SandClockControlView.xib; path = NeoSandClock/Classes/SandClockControlView.xib; sourceTree = "<group>"; };
-		B56FA201214A622700B8D625 /* SandBoxTopLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SandBoxTopLayer.swift; path = NeoSandClock/Classes/SandBoxTopLayer.swift; sourceTree = "<group>"; };
-		B56FA20D214A683600B8D625 /* NeoSandClockBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NeoSandClockBundle.bundle; path = NeoSandClock/Classes/NeoSandClockBundle.bundle; sourceTree = "<group>"; };
-		C08F272687F310729867EBC57577B667 /* NeoSandClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NeoSandClock-umbrella.h"; sourceTree = "<group>"; };
-		C2C34D5BC96AE87F4F8D807C1DEFB2E6 /* NeoSandClock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NeoSandClock.xcconfig; sourceTree = "<group>"; };
+		B9B7A2C066D13D111678269E6FC7B8E0 /* NeoSandClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NeoSandClock-dummy.m"; sourceTree = "<group>"; };
+		C3016B5640569DB769E7DF4324A08CC2 /* Root.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Root.strings; path = en.lproj/Root.strings; sourceTree = "<group>"; };
 		C7D6A3A7BCD84369B55C21A8C1FF1B1C /* Pods-NeoSandClock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoSandClock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC405E32C0BC6F4E7BE7EA4EC7E6F32 /* SandClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SandClockView.swift; path = NeoSandClock/Classes/SandClockView.swift; sourceTree = "<group>"; };
+		CFE3408078D013297A59628122329DD3 /* NeoSandClock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NeoSandClock.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D30F4541A1B9C534BEACEB5073492D6E /* sandclock_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sandclock_bg@2x.png"; sourceTree = "<group>"; };
 		D5DD22DA80D92D932EEB3E0CD15F1E47 /* Pods-NeoSandClock_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeoSandClock_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D812AC74861AB83644739166EBA43963 /* Pods-NeoSandClock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeoSandClock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D9B181C36F2FAD4161059094183BB36D /* Pods-NeoSandClock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeoSandClock_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E16609F7120D54C1F68637EE6D6F903E /* NeoSandClock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NeoSandClock-prefix.pch"; sourceTree = "<group>"; };
+		E2D5E4B2A1183125B5538CB70281578E /* SandLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SandLayer.swift; path = NeoSandClock/Classes/SandLayer.swift; sourceTree = "<group>"; };
+		E8F11A9F6FB5549810424BE9BEA15CDD /* SandBoxBottomLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SandBoxBottomLayer.swift; path = NeoSandClock/Classes/SandBoxBottomLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0982D276A5BB39938C358160CE9260AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBAF32426880E4BADBA84F4AFBA413FA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		74C8C2A6173D308BFEBA43C5B9144EC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1891702E8137161D6EDFF1030863C78B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33336747CAC7045AA3CD29CA55741B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB49E699672C16E28B07A46AC706BEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +140,18 @@
 			);
 			name = "Pods-NeoSandClock_Tests";
 			path = "Target Support Files/Pods-NeoSandClock_Tests";
+			sourceTree = "<group>";
+		};
+		5118453AE413FA115959E2D744B60169 /* SettingsBundle.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				762C04D5FCE5C47C9BBF7B6565D510F2 /* Root.plist */,
+				13F0C46DDC315DFE47A5754926DF69A0 /* Root.strings */,
+				D30F4541A1B9C534BEACEB5073492D6E /* sandclock_bg@2x.png */,
+				88052437BB7F0764AA8A4BEA657AECE0 /* sandclock_bg@3x.png */,
+			);
+			name = SettingsBundle.bundle;
+			path = NeoSandClock/Classes/SettingsBundle.bundle;
 			sourceTree = "<group>";
 		};
 		5D98E94C543BDBF512C5DC6FD660506C /* Targets Support Files */ = {
@@ -167,48 +185,40 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9DF769F9F0696AAAC2A7D68BED856359 /* Development Pods */,
+				D733222B8460BDCC4D86E2DF7ABAD1FB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				723395701C8E03462C27AF750C8A9136 /* Products */,
 				5D98E94C543BDBF512C5DC6FD660506C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		806303CDEF2555990BE039717D028B74 /* NeoSandClock */ = {
+		84AA3793D7B08DCD0A64466FB748B3D2 /* NeoSandClock */ = {
 			isa = PBXGroup;
 			children = (
-				B56FA20D214A683600B8D625 /* NeoSandClockBundle.bundle */,
-				AE5EF4B0A434A384FF957EC330DC1FEE /* ReplaceMe.swift */,
-				B56FA1FF214A622700B8D625 /* SandBoxBottomLayer.swift */,
-				B56FA201214A622700B8D625 /* SandBoxTopLayer.swift */,
-				B56FA1FE214A622700B8D625 /* SandClock.swift */,
-				B56FA1FC214A622700B8D625 /* SandClockControlView.swift */,
-				B56FA200214A622700B8D625 /* SandClockControlView.xib */,
-				B56FA1FB214A622700B8D625 /* SandClockView.swift */,
-				B56FA1FD214A622700B8D625 /* SandLayer.swift */,
-				88D411E55087AADEEFA5D276224B5BDF /* Pod */,
-				B8BEC965D0A12F7DCBF661A511E8EB37 /* Support Files */,
+				88E78BD49AC34E3407ADF1A06B2971FE /* ReplaceMe.swift */,
+				E8F11A9F6FB5549810424BE9BEA15CDD /* SandBoxBottomLayer.swift */,
+				040A602CF7F2B7A6B86625DB2653A192 /* SandBoxTopLayer.swift */,
+				4FFDF6AFA27EF81D1A937D37B174289B /* SandClock.swift */,
+				145C1CEA1225E6270CCCB7B3E678150A /* SandClockControlView.swift */,
+				7FA8D0AB3862F43C7F29D4FAE7BB30E1 /* SandClockControlView.xib */,
+				CCC405E32C0BC6F4E7BE7EA4EC7E6F32 /* SandClockView.swift */,
+				E2D5E4B2A1183125B5538CB70281578E /* SandLayer.swift */,
+				9B83B3B9E8E8795D21400C9944814EE5 /* Pod */,
+				5118453AE413FA115959E2D744B60169 /* SettingsBundle.bundle */,
+				F8F69536E6B4041FB08AA9ED14AE2900 /* Support Files */,
 			);
 			name = NeoSandClock;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		88D411E55087AADEEFA5D276224B5BDF /* Pod */ = {
+		9B83B3B9E8E8795D21400C9944814EE5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				09002913782E323BE4933748FD625F9C /* LICENSE */,
-				308102C836E17508BA140C5711853FA9 /* NeoSandClock.podspec */,
-				92485F84CD936CA585AB3FE9008F63B9 /* README.md */,
+				9BF09E73B82625C07AAF346F83721DAE /* LICENSE */,
+				CFE3408078D013297A59628122329DD3 /* NeoSandClock.podspec */,
+				30273143D46AF685C8A97F3ED886D2AC /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		9DF769F9F0696AAAC2A7D68BED856359 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				806303CDEF2555990BE039717D028B74 /* NeoSandClock */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A5220EADC6357FAE936E6CC5C1251384 /* Pods-NeoSandClock_Example */ = {
@@ -229,26 +239,34 @@
 			path = "Target Support Files/Pods-NeoSandClock_Example";
 			sourceTree = "<group>";
 		};
-		B8BEC965D0A12F7DCBF661A511E8EB37 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0377FD52437DE34D895DD808C1A4DC08 /* Info.plist */,
-				672889B5BBDB02EFF41506AA1FF793A6 /* NeoSandClock.modulemap */,
-				C2C34D5BC96AE87F4F8D807C1DEFB2E6 /* NeoSandClock.xcconfig */,
-				21F4D4DA66D9773E3BE73F8275D66CD1 /* NeoSandClock-dummy.m */,
-				E16609F7120D54C1F68637EE6D6F903E /* NeoSandClock-prefix.pch */,
-				C08F272687F310729867EBC57577B667 /* NeoSandClock-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NeoSandClock";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D733222B8460BDCC4D86E2DF7ABAD1FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84AA3793D7B08DCD0A64466FB748B3D2 /* NeoSandClock */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F8F69536E6B4041FB08AA9ED14AE2900 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA01B298CFF2E63D32D125BBCBEEA6 /* Info.plist */,
+				578FF96C7617C64C7762BAA2BA9EA6E5 /* NeoSandClock.modulemap */,
+				6C9E4805CC58E326BCBDAEB81308F90A /* NeoSandClock.xcconfig */,
+				B9B7A2C066D13D111678269E6FC7B8E0 /* NeoSandClock-dummy.m */,
+				521A486AE2BD51DB47BFC6BDD6AD5578 /* NeoSandClock-prefix.pch */,
+				6BBB7C83D79FBDA2CCB85DA88CE25C3F /* NeoSandClock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NeoSandClock";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,11 +288,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9FD6BFDC3E3E8F828EA124154DC5881 /* Headers */ = {
+		CC68EE259146330348B6D407CF4200A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C229D8D9572EA780D1D3C73FFBFA828 /* NeoSandClock-umbrella.h in Headers */,
+				8B0FA081BB346A5D8F3FD19D09001AB7 /* NeoSandClock-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,14 +337,14 @@
 			productReference = 4F991AC2A7E61338FFAC94FBC0D1134D /* Pods_NeoSandClock_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9188B545A499F81550A66B1959FBCD66 /* NeoSandClock */ = {
+		B79582155F1F36A9E97AC29ADD898962 /* NeoSandClock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDBFE6CE9CB38FDDA54C89271E947270 /* Build configuration list for PBXNativeTarget "NeoSandClock" */;
+			buildConfigurationList = F659555DE2A3C28503152F8821EF1794 /* Build configuration list for PBXNativeTarget "NeoSandClock" */;
 			buildPhases = (
-				A9FD6BFDC3E3E8F828EA124154DC5881 /* Headers */,
-				13A2AFF6E0E4BAA3C4AC44EFA8C992EC /* Sources */,
-				0982D276A5BB39938C358160CE9260AD /* Frameworks */,
-				81996E7E4E381B2AB8894E8C013D340B /* Resources */,
+				CC68EE259146330348B6D407CF4200A8 /* Headers */,
+				98B79AD7226AFCBBC981EAD560FD3B62 /* Sources */,
+				F33336747CAC7045AA3CD29CA55741B4 /* Frameworks */,
+				92E2044F011584417B47AB0ACB740745 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -358,7 +376,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9188B545A499F81550A66B1959FBCD66 /* NeoSandClock */,
+				B79582155F1F36A9E97AC29ADD898962 /* NeoSandClock */,
 				7F50F13CAB21264971F801EB124F3983 /* Pods-NeoSandClock_Example */,
 				667271E5451B752A0015A479886E91A7 /* Pods-NeoSandClock_Tests */,
 			);
@@ -373,12 +391,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81996E7E4E381B2AB8894E8C013D340B /* Resources */ = {
+		92E2044F011584417B47AB0ACB740745 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56FA207214A622700B8D625 /* SandClockControlView.xib in Resources */,
-				B56FA20E214A683600B8D625 /* NeoSandClockBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,21 +408,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13A2AFF6E0E4BAA3C4AC44EFA8C992EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B56FA205214A622700B8D625 /* SandClock.swift in Sources */,
-				05643FDCD0E0DEC827733D4DBF4B76C2 /* NeoSandClock-dummy.m in Sources */,
-				F1F144B2690E5E59B71A1CDF264E6C43 /* ReplaceMe.swift in Sources */,
-				B56FA202214A622700B8D625 /* SandClockView.swift in Sources */,
-				B56FA206214A622700B8D625 /* SandBoxBottomLayer.swift in Sources */,
-				B56FA204214A622700B8D625 /* SandLayer.swift in Sources */,
-				B56FA203214A622700B8D625 /* SandClockControlView.swift in Sources */,
-				B56FA208214A622700B8D625 /* SandBoxTopLayer.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1F84147DEA1A704D9A6BBF7BD3B6C877 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,13 +424,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		98B79AD7226AFCBBC981EAD560FD3B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757FCFFA5CE568C9ACB0A6036B0BEC45 /* NeoSandClock-dummy.m in Sources */,
+				6DEF8A273B0C2155B5DD02FAA9171E3C /* ReplaceMe.swift in Sources */,
+				7B1CE8051C919650197D5427BC866030 /* Root.plist in Sources */,
+				462DDFD6F4A60A80D9B0775C2983E128 /* Root.strings in Sources */,
+				33E36C0B4C9A30DBA4AC7EEAC7AF6CB7 /* SandBoxBottomLayer.swift in Sources */,
+				EA54BC858BB3309DDE3A6CE38705DEE2 /* SandBoxTopLayer.swift in Sources */,
+				7F185FF671B4D2641C80D0C9754F1BE9 /* SandClock.swift in Sources */,
+				52E708828EEEB1B96995ED2C7BDFE51F /* sandclock_bg@2x.png in Sources */,
+				DF0C37F74F4A9EEC7593976AB0ECBCB8 /* sandclock_bg@3x.png in Sources */,
+				E272E930E546B7FBA23AD94B22904D1C /* SandClockControlView.swift in Sources */,
+				57524CB095EFA19E2DE4347F3E0B7DC4 /* SandClockControlView.xib in Sources */,
+				F1CB0F044230261329178A445609C130 /* SandClockView.swift in Sources */,
+				F7712F81615F72731A11F9E77BDA6DDE /* SandLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		010C3527EE05AF11D48390CEC47B67E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NeoSandClock;
-			target = 9188B545A499F81550A66B1959FBCD66 /* NeoSandClock */;
+			target = B79582155F1F36A9E97AC29ADD898962 /* NeoSandClock */;
 			targetProxy = 0774C557B917CE064CB20F03FFB9EBC7 /* PBXContainerItemProxy */;
 		};
 		A084C53658289CAFE6B87EA1DD3071D7 /* PBXTargetDependency */ = {
@@ -440,10 +461,92 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		13F0C46DDC315DFE47A5754926DF69A0 /* Root.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3016B5640569DB769E7DF4324A08CC2 /* Root.strings */,
+			);
+			name = Root.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		238A13F2D683E1542EE1D242BC7264C6 /* Debug */ = {
+		13AAE29F6434C3A329CD5A43DED546E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C34D5BC96AE87F4F8D807C1DEFB2E6 /* NeoSandClock.xcconfig */;
+			baseConfigurationReference = D9B181C36F2FAD4161059094183BB36D /* Pods-NeoSandClock_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeoSandClock_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeoSandClock_Example/Pods-NeoSandClock_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1400959C05A5783A457D428A323600B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9E4805CC58E326BCBDAEB81308F90A /* NeoSandClock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NeoSandClock/NeoSandClock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NeoSandClock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NeoSandClock/NeoSandClock.modulemap";
+				PRODUCT_MODULE_NAME = NeoSandClock;
+				PRODUCT_NAME = NeoSandClock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		188581978F938E8B03649B5927DF7266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9E4805CC58E326BCBDAEB81308F90A /* NeoSandClock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -473,7 +576,7 @@
 			};
 			name = Debug;
 		};
-		2F9FD9C180506B9E4B5C7B3B52B84BDD /* Debug */ = {
+		21DB3DB2D67524E89534F875436CDCA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7D6A3A7BCD84369B55C21A8C1FF1B1C /* Pods-NeoSandClock_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -489,7 +592,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NeoSandClock_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NeoSandClock_Tests/Pods-NeoSandClock_Tests.modulemap";
@@ -506,168 +609,7 @@
 			};
 			name = Debug;
 		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		7D952DBB7E98851F2919AF209CA679AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9B181C36F2FAD4161059094183BB36D /* Pods-NeoSandClock_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NeoSandClock_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NeoSandClock_Example/Pods-NeoSandClock_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		88378900DD4B9BBEAB8DD5E266363071 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C34D5BC96AE87F4F8D807C1DEFB2E6 /* NeoSandClock.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NeoSandClock/NeoSandClock-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NeoSandClock/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NeoSandClock/NeoSandClock.modulemap";
-				PRODUCT_MODULE_NAME = NeoSandClock;
-				PRODUCT_NAME = NeoSandClock;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B29CE5CA5E6F54F3338137491E2B842A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EDA17288294DCCDF810A05AEC4AE4E1 /* Pods-NeoSandClock_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NeoSandClock_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NeoSandClock_Tests/Pods-NeoSandClock_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -720,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -731,7 +673,7 @@
 			};
 			name = Debug;
 		};
-		E8E96443A16CDD15A79AD9A9B313EB50 /* Debug */ = {
+		B504AECE8848DEB88ED6EE4F29A6B124 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 209CFB672AF74DCEB36D534039D4202C /* Pods-NeoSandClock_Example.debug.xcconfig */;
 			buildSettings = {
@@ -747,7 +689,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NeoSandClock_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NeoSandClock_Example/Pods-NeoSandClock_Example.modulemap";
@@ -766,14 +708,107 @@
 			};
 			name = Debug;
 		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF973BEE90115E3AB8FA3143940ABE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDA17288294DCCDF810A05AEC4AE4E1 /* Pods-NeoSandClock_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeoSandClock_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeoSandClock_Tests/Pods-NeoSandClock_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0911CA26AABA8CCED7235F28E8B506FA /* Build configuration list for PBXNativeTarget "Pods-NeoSandClock_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8E96443A16CDD15A79AD9A9B313EB50 /* Debug */,
-				7D952DBB7E98851F2919AF209CA679AA /* Release */,
+				B504AECE8848DEB88ED6EE4F29A6B124 /* Debug */,
+				13AAE29F6434C3A329CD5A43DED546E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -781,8 +816,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -790,17 +825,17 @@
 		7220D502216C3E796F05811D169B717A /* Build configuration list for PBXNativeTarget "Pods-NeoSandClock_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F9FD9C180506B9E4B5C7B3B52B84BDD /* Debug */,
-				B29CE5CA5E6F54F3338137491E2B842A /* Release */,
+				21DB3DB2D67524E89534F875436CDCA3 /* Debug */,
+				CF973BEE90115E3AB8FA3143940ABE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDBFE6CE9CB38FDDA54C89271E947270 /* Build configuration list for PBXNativeTarget "NeoSandClock" */ = {
+		F659555DE2A3C28503152F8821EF1794 /* Build configuration list for PBXNativeTarget "NeoSandClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				238A13F2D683E1542EE1D242BC7264C6 /* Debug */,
-				88378900DD4B9BBEAB8DD5E266363071 /* Release */,
+				188581978F938E8B03649B5927DF7266 /* Debug */,
+				1400959C05A5783A457D428A323600B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
