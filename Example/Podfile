@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NeoSandClock_Example' do
+  pod 'NeoSandClock', :path => '../'
+
+  target 'NeoSandClock_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

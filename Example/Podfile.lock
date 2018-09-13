@@ -1,0 +1,16 @@
+PODS:
+  - NeoSandClock (0.1.0)
+
+DEPENDENCIES:
+  - NeoSandClock (from `../`)
+
+EXTERNAL SOURCES:
+  NeoSandClock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NeoSandClock: e518e12ce75f989b698d0721cdcc3b1e3bf6645f
+
+PODFILE CHECKSUM: 796c9885b7655538d385a07bc5178f1153ea9bad
+
+COCOAPODS: 1.5.3

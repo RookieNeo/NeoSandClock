@@ -1,0 +1,6 @@
+framework module Pods_NeoSandClock_Tests {
+  umbrella header "Pods-NeoSandClock_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module NeoSandClock {
+  umbrella header "NeoSandClock-umbrella.h"
+
+  export *
+  module * { export * }
+}
