@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         print("dev 1")
         print("dev 2")
         print("dev 3")
+        print("dev 4")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
